@@ -49,7 +49,7 @@ print("MAY THE FORCE BE WITH YOU.".lower())
 # Given the list motto = ["Make", "haste", "slowly."],
 # a. Convert the list into a single string.
 # b. Now, split the string at every occurrence of the letter 'a'.
-motto="Make "+ "haste "+ "slowly."
+motto="Make "+ "haste "+ "slowly." #motto_strong "" .join(motto)
 print(motto)
 print(motto.split("a"))
 # Replacing Words:
